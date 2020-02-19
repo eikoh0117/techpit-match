@@ -3,6 +3,7 @@
     <div class="loginPage_contents">
       <h1 class="h4 loginPage_contents_title">新しいマッチを見つけよう</h1>
       <%= link_to "メールアドレスでログインする", new_user_session_path, class: "btn loginPage_contents_btn" %>
+      <%= link_to "logout" , destroy_user_session_path, method: :delete, class:"glyphicon glyphicon-log-out logout" %>
     </div>
   </div>
 </div>
